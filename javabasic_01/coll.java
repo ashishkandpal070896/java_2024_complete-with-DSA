@@ -17,6 +17,8 @@ public class coll{
         int idx1=1,idx=2;
         System.out.println(list);
         Collections.sort(list);
+        System.out.println(list);//asscending order
+        Collections.sort(list,Collections.reverseOrder());//reverse order
         System.out.println(list);
     }
 }
