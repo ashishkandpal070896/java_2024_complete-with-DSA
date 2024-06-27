@@ -2,12 +2,14 @@
 // Use this editor to write, compile and run your Java code online
 
 import java.util.*;
-public class Stack{
+public class StackB{
+    static class Stack{
     static ArrayList<Integer>list=new ArrayList<>();
     public static boolean isEmpty(){
         return list.size()==0;
         
     }
+    
     //push
     public static void push(int data){
         list.add(data);
@@ -27,6 +29,7 @@ public class Stack{
         }
         return list.get(list.size()-1);
         
+       }
     }
     public static void main(String[]args){
         Stack s=new Stack();
@@ -41,3 +44,4 @@ public class Stack{
         
     }
 }
+
